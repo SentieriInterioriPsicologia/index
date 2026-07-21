@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chi siamo — Sentieri Interiori</title>
+<meta name="description" content="Conosci il team di Sentieri Interiori: Felipe Biasus e Christine Biasus, psicologi con formazione umanistica a Erechim, RS.">
+<link rel="icon" href="../images/logo.jpg">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+  .psico-full-card{background:var(--branco);border-radius:var(--raio-suave);overflow:hidden;border:1px solid rgba(102,114,92,0.1);}
+  .psico-full-top{display:grid;grid-template-columns:280px 1fr;}
+  .psico-full-photo{aspect-ratio:3/4;overflow:hidden;}
+  .psico-full-photo img{width:100%;height:100%;object-fit:cover;}
+  .psico-full-body{padding:2.5rem 2.2rem;display:flex;flex-direction:column;justify-content:center;}
+  .psico-full-body .role{font-family:var(--fonte-utilitaria);font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--terracota);margin-bottom:0.4rem;}
+  .psico-full-body h3{font-size:1.7rem;margin-bottom:0.9rem;}
+  .psico-full-body p{color:var(--carvao-suave);font-size:0.97rem;margin-bottom:1.2rem;}
+  .formation-list{display:flex;flex-direction:column;gap:0.55rem;margin-bottom:1.6rem;}
+  .formation-list li{display:flex;align-items:flex-start;gap:0.7rem;font-size:0.9rem;color:var(--carvao-suave);}
+  .formation-list li::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--verde-musgo);flex-shrink:0;margin-top:0.45rem;}
+  .psico-full-footer{padding:1.4rem 2.2rem;background:var(--creme);border-top:1px solid rgba(102,114,92,0.1);display:flex;gap:1rem;flex-wrap:wrap;}
+  .values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;}
+  .value-card{text-align:left;padding:2rem 0;}
+  .value-card .num{font-family:var(--fonte-utilitaria);font-size:0.78rem;color:var(--terracota);letter-spacing:0.1em;}
+  .value-card h3{font-size:1.25rem;margin:0.6rem 0 0.7rem;}
+  .value-card p{color:var(--carvao-suave);font-size:0.95rem;}
+  @media(max-width:720px){.psico-full-top{grid-template-columns:1fr;}.psico-full-photo{aspect-ratio:16/9;}.values-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="brand">
+      <img src="../images/logo.jpg" alt="Sentieri Interiori">
+      <span class="brand-text">
+        <span class="brand-name">Sentieri Interiori</span>
+        <span class="brand-sub">Servizi di Psicologia</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servizi.html">Servizi</a></li>
+        <li><a href="chi-siamo.html" class="active">Chi siamo</a></li>
+        <li><a href="contatto.html">Contatto</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang-switch">
+        <a href="../pt/sobre.html">PT</a>
+        <a href="chi-siamo.html" class="active">IT</a>
+      </div>
+      <a href="https://wa.me/5554991436408" class="btn-whatsapp-nav" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.92 8.92 0 0 0 4.33 1.12h.01a8.94 8.94 0 0 0 8.92-8.94 8.85 8.85 0 0 0-2.36-5.6Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="nav-toggle" aria-label="Apri il menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <p class="eyebrow">La nostra storia</p>
+    <h1>Chi siamo — <em>Sentieri Interiori</em></h1>
+    <p>Una clinica nata con la convinzione che la cura della salute mentale debba essere accogliente, tecnica e genuinamente umana.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> <span>›</span> <span>Chi siamo</span></div>
+  </div>
+</div>
+
+<section class="bg-branco">
+  <div class="container">
+    <div style="max-width:820px;margin:0 auto;text-align:center" class="reveal">
+      <p class="eyebrow" style="justify-content:center">La nostra missione</p>
+      <p class="mission-statement" style="margin-top:1.2rem">"Offrire uno spazio in cui ogni persona possa incontrarsi con sé stessa — in sicurezza, rispetto e con accompagnamento qualificato."</p>
+    </div>
+
+    <div style="height:3.5rem"></div>
+
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <span class="num">— 01</span>
+        <h3>Ascolto autentico</h3>
+        <p>Ogni persona viene accolta con attenzione integrale, senza giudizi e senza fretta. La qualità della presenza terapeutica è il fondamento di tutto ciò che facciamo.</p>
+      </div>
+      <div class="value-card reveal">
+        <span class="num">— 02</span>
+        <h3>Rigore tecnico</h3>
+        <p>Operiamo con formazione specializzata e aggiornamento continuo, garantendo che la cura abbia basi scientifiche ed etiche solide.</p>
+      </div>
+      <div class="value-card reveal">
+        <span class="num">— 03</span>
+        <h3>Umanesimo applicato</h3>
+        <p>Crediamo nel potenziale umano di crescita. La nostra pratica parte dall'Approccio Centrato sulla Persona, rispettando la singolarità di ogni percorso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-creme-escuro">
+  <div class="container">
+    <div class="approach-block">
+      <div class="approach-image reveal">
+        <img src="https://images.unsplash.com/photo-1502209524164-acea936639a2?w=600&q=80&auto=format&fit=crop" alt="Sentiero nella natura — metafora dei percorsi interiori">
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Perché questo nome</p>
+        <h2 class="section-title"><em>Sentieri</em> Interiori</h2>
+        <p class="section-lead">In italiano, <em>sentieri</em> significa "percorsi" o "cammini". La scelta del nome non è arbitraria: porta con sé la metafora centrale del lavoro psicologico.</p>
+        <p style="margin-top:1.2rem;color:var(--carvao-suave);">Ogni processo terapeutico è un cammino unico. Non ci sono scorciatoie, né destinazioni fisse — ci sono percorsi che si rivelano man mano che vengono vissuti. Lo psicologo non cammina davanti, né spinge da dietro: cammina accanto, con una lanterna in mano.</p>
+        <p style="margin-top:1rem;color:var(--carvao-suave);">La scelta dell'italiano ci ricorda la ricchezza della lingua come modo di vedere il mondo da un'angolazione diversa — un invito alla riflessione, alla lentezza e alla profondità che la psicoterapia propone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-branco">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <p class="eyebrow" style="justify-content:center">Il nostro team</p>
+      <h2 class="section-title">Le persone che <em>camminano con te</em></h2>
+    </div>
+
+    <div class="psico-full-card reveal" style="margin-bottom:2.5rem">
+      <div class="psico-full-top">
+        <div class="psico-full-photo">
+          <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&q=80&auto=format&fit=crop" alt="Psicologo Felipe Biasus">
+        </div>
+        <div class="psico-full-body">
+          <span class="role">Psicologo</span>
+          <h3>Felipe Biasus</h3>
+          <p>Psicologo clinico con formazione umanistica e una traiettoria che unisce pratica clinica e docenza universitaria. Crede che il processo terapeutico si costruisca nella relazione.</p>
+          <ul class="formation-list">
+            <li>Master in Psicologia — UFSC (Università Federale di Santa Catarina)</li>
+            <li>Formazione in Psicologia Clinica Umanistica — ACP (AGAPH e Espaço Viver Psicologia)</li>
+            <li>Docente del Corso di Psicologia della URI Erechim</li>
+          </ul>
+        </div>
+      </div>
+      <div class="psico-full-footer">
+        <a href="https://wa.me/5554991436408" class="btn btn-primary" target="_blank" rel="noopener" style="font-size:0.88rem;padding:0.7rem 1.4rem;">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:17px;height:17px"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.92 8.92 0 0 0 4.33 1.12h.01a8.94 8.94 0 0 0 8.92-8.94 8.85 8.85 0 0 0-2.36-5.6Z"/></svg>
+          (54) 99143-6408
+        </a>
+      </div>
+    </div>
+
+    <div class="psico-full-card reveal">
+      <div class="psico-full-top">
+        <div class="psico-full-photo">
+          <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&q=80&auto=format&fit=crop" alt="Psicologa Christine Lisiane Bonissoni Biasus">
+        </div>
+        <div class="psico-full-body">
+          <span class="role">Psicologa</span>
+          <h3>Christine L. B. Biasus</h3>
+          <p>Psicologa con specializzazione in valutazione psicologica e ampia esperienza nel trattamento degli adolescenti. Combina rigore tecnico con sensibilità clinica.</p>
+          <ul class="formation-list">
+            <li>Specialista in Valutazione Psicologica</li>
+            <li>Formazione nell'assistenza psicologica agli adolescenti</li>
+            <li>Specializzazione in corso in Psicoanalisi</li>
+          </ul>
+        </div>
+      </div>
+      <div class="psico-full-footer">
+        <a href="https://wa.me/5554981330220" class="btn btn-primary" target="_blank" rel="noopener" style="font-size:0.88rem;padding:0.7rem 1.4rem;">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:17px;height:17px"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.92 8.92 0 0 0 4.33 1.12h.01a8.94 8.94 0 0 0 8.92-8.94 8.85 8.85 0 0 0-2.36-5.6Z"/></svg>
+          (54) 98133-0220
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-branco" style="padding-top:0">
+  <div class="container">
+    <div class="cta-final reveal">
+      <h2>Vuoi conoscere meglio il nostro lavoro?</h2>
+      <p>Parla con uno dei nostri psicologi — il primo colloquio non impegna a nulla.</p>
+      <a href="contatto.html" class="btn btn-primary">
+        Contattaci
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">
+          <img src="../images/logo.jpg" alt="Sentieri Interiori" style="height:42px;filter:none;border-radius:6px;">
+          <span class="footer-brand-text">Sentieri Interiori</span>
+        </div>
+        <p>Servizi di Psicologia Ltda. Psicoterapia individuale e valutazione psicologica a Erechim, RS.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigazione</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servizi.html">Servizi</a></li>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="contatto.html">Contatto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Team</h4>
+        <ul>
+          <li><a href="chi-siamo.html">Felipe Biasus</a></li>
+          <li><a href="chi-siamo.html">Christine Biasus</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Dove siamo</h4>
+        <p>Rua Carlos Miranda, 82 — Piano terra<br>Bairro Fátima, Erechim - RS<br>Brasile — CEP 99709-292</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sentieri Interiori Serviços de Psicologia Ltda. Tutti i diritti riservati.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/5554991436408" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Scrivi su WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.92 8.92 0 0 0 4.33 1.12h.01a8.94 8.94 0 0 0 8.92-8.94 8.85 8.85 0 0 0-2.36-5.6Z"/></svg>
+</a>
+<script src="../js/main.js"></script>
+</body>
+</html>
